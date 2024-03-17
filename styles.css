@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #2980b9, #2c3e50); /* Dégradé de couleur pour le fond */
+    color: #fff; /* Couleur du texte */
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Couleur de fond semi-transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#weather-info p {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+#weather-info img {
+    width: 150px; /* Taille de l'icône météorologique augmentée */
+    height: auto;
+    margin-top: 20px;
+}
